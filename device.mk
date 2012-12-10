@@ -199,7 +199,30 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.facelock.use_intro_anim=true \
     camera.flash_off=0 \
     drm.service.enabled=true \
-    ro.com.widevine.cachesize=16777216
+    ro.com.widevine.cachesize=16777216 \
+    ro.build.id=JOP40D \
+    ro.build.display.id=JOP40D \
+    ro.build.version.incremental=533553 \
+    ro.build.version.sdk=17 \
+    ro.build.version.codename=REL \
+    ro.build.version.release=4.2.1 \
+    ro.build.type=user \
+    ro.build.user=android-build \
+    ro.build.host=vpba14.mtv.corp.google.com \
+    ro.build.tags=release-keys \
+    ro.product.model=Nexus 10 \
+    ro.product.brand=google \
+    ro.product.name=mantaray \
+    ro.product.device=manta \
+    ro.product.board=manta \
+    ro.product.cpu.abi=armeabi-v7a \
+    ro.product.cpu.abi2=armeabi \
+    ro.product.manufacturer=samsung \
+    ro.product.locale.language=en \
+    ro.product.locale.region=US \
+    ro.build.description=mantaray-user 4.2.1 JOP40D 533553 release-keys \
+    ro.build.fingerprint=google/mantaray/manta:4.2.1/JOP40D/533553:user/release-keys
+
 
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
